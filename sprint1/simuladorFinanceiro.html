@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador FInanceiro</title>
+</head>
+
+<style>
+    /* no body, foi modificado a fonte do corpo do documento*/
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /*foi modificado a cor da fonte*/
+    #titulo {
+        color: #555fe9;
+    }
+
+    /*nesse id, foi modificado a cor da borda, tamanho, arredondamento das bordas e cor de fundo*/
+    #btnCalcular {
+        border-color: black;
+        width: 175px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: #a4b4e9;
+    }
+
+    /*nessa classe, foi modificado o tamanho das tags Input, padronizando-as    */
+    .inputs {
+        width: 20%;
+    }
+</style>
+
+<body>
+    <h1 id="titulo">Simulador Financeiro TermoMonitor</h1>
+
+    <h4>Quantidade em metros do Tecido adquirido: </h4>
+    <input class="inputs" id="txtQuantidade" type="text"><br>
+    <h4>Preço de compra por metro: </h4>
+    <input class="inputs" id="txtCompra" type="text"><br>
+    <h4>Preço de venda por metro: </h4>
+    <input class="inputs" id="txtVenda" type="text"><br><br>
+
+    <button id="btnCalcular" onclick="calcular()">Calcular</button><br>
+
+    <div id="resultado"></div>
+</body>
+
+</html>
+<script>
+    function calcular() {
+        // recebendo os valores e os convertendo para variáveis
+        var quantidade = Number(txtQuantidade.value);
+        var precoCompra = Number(txtCompra.value);
+        var precoVenda = Number(txtVenda.value);
+        var valorCompra, valorVenda, lucro, diferencial;
+
+        //calculo de valor de compra
+        valorCompra = quantidade * precoCompra;
+
+        // calculo de valor de venda
+        valorVenda = quantidade * precoVenda;
+
+        // calculo de lucro
+        lucro = valorVenda - valorCompra;
+
+        // lucro utilizando o TermoMonitor (20% a mais)
+        diferencial = lucro * 1.2;
+
+        // Resultado em Tela
+        resultado.innerHTML = `Considerando que você vendeu 100% do estoque, <br>
+                                normalmente se obterá um lucro de <b>R$${lucro.toFixed(2)}</b>. <br><br>
+                                Com o TermoMonitor você terá um controle melhor do seu estoque, evitando<br>
+                                possíveis perdas de material podendo ter até 20% a mais de lucro, resultando em <b>R$${diferencial.toFixed(2)}</b> de lucro!`;
+    }
+</script>

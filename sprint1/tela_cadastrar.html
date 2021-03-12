@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="cadastrar_css.css">
+</head>
+
+<body style="background-color: black;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvCVtMtApvnm7dC
+    aZbcu-JB5xWLSRyR5q0ig&usqp=CAU" alt="imagem da império gesso" style="margin-left:
+     30%;">
+    <div style="margin-left: 35%;">
+        <h2 style="color: darkorange; margin: 5px;">Cadastre-se</h2>
+        <span id="span_nome" style="color: darkorange;">Nome</span> <br>
+        <input id="input_nome" type="text" placeholder="Digite seu nome"> <br>
+        <span id="span_sobrenome" style="color: darkorange;">Sobrenome</span> <br>
+        <input id="input_sobrenome" type="text" placeholder="Digite seu sobrenome">
+        <br>
+        <span id="span_email" style="color: darkorange;">E-mail</span> <br>
+        <input id="input_email" type="text" placeholder="digite seu endereço de 
+        e-mail"> <br>
+        <span id="span_senha" style="color: darkorange;">Senha</span>
+        <button type="button" class="btn_btn-secondary" data-bs-toggle="tooltip" ; data-bs-placement="bottom" title="a senha deve conter 8 letras, e pelo menos um caractere especial">
+        </button> <br>
+        <input id="input_senha" type="text" placeholder="digite sua senha">
+        <span id="span_notification" style="color: darkorange;">
+       <br>
+        <span id="span_confirmacao" style="color: darkorange; ">Confirme sua senha</span>
+        <br> <input id="input_senha2" type="text" placeholder="Digite seu senha novamente"> <br>
+        <button id="button_cancelar" style="background-color: red; margin-left: 50px;" onclick="cancelar()">
+            cancelar</button>
+        <!--aqui volta para a página de log-in-->
+        <button id="button_enviar" style="background-color: rgb(37, 182, 37);" onclick="enviar()">
+            Enviar</button>
+        <div id="div_teste">
+
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    function enviar() {
+        div_teste.innerHTML += `${input_nome.value}${input_sobrenome.value}
+        ${input_email.value}${input_senha.value}${input_confirmacao.value}`;
+    }
+
+    function cancelar() {
+
+    }
+</script>
