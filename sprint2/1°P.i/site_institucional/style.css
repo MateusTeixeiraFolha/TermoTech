@@ -1,0 +1,52 @@
+body {
+    font-family: Nunito Sans, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #272626;
+    color: white;
+    overflow: auto; 
+    border-bottom: 5px solid #4b4bb1 ;
+    box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.4);    
+    padding: 9px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.titulo {
+    float: left;
+    margin: 0.5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a :hover{
+    color:#193cd8 ;
+}
+
+.destaque {
+    color: #193cd8;
+}
+
+.navbar {
+    float: right;
+    color: #ffffff;
+    list-style: none;
+    text-align: right;
+}
+
+
+.item_menu {
+    float: left;
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
