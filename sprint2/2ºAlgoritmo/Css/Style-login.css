@@ -1,0 +1,101 @@
+body{
+
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #193CD8;
+
+}
+
+form{
+
+    background-color: #ffff;
+    /* Define largura maxima que o formulario pode chegar */
+    max-width: 500px;
+    width: 60%;
+    padding: 20px;
+    /* Arredonda as bordas */
+    border-radius: 5px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 11%;
+    box-shadow: 3px 4px 2px 1px rgba(0, 0, 0, 0.357);
+    
+}
+
+
+form h3{
+
+    text-align: center;
+
+}
+
+
+/*
+form input[type=text], form input[type=password]{
+
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+
+}*/
+
+.inpt{
+
+    width: 95%;
+    height: 35px;
+    margin-left: 2%;
+    border-radius: 5px;
+    border: none;
+    background-color: #d1d1d1;
+}
+
+
+.email{
+
+    margin-bottom: 15px;
+
+}
+
+
+.btn{
+
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    width: 95%;
+    height: 35px;
+    margin-left: 2.4%;
+    color: #ffff;
+    background-color: #06ff1be5;
+    margin-bottom: 15px;
+    
+}
+
+.btn:hover{
+
+    filter: brightness(80%);
+
+}
+
+.link{
+
+    text-align: center;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+    opacity: 80%;
+}
+
+a:hover{
+
+    color:#193CD8;
+
+}
