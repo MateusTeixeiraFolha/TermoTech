@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>HP 420</Author>
+  <LastAuthor>HP 420</LastAuthor>
+  <Created>2021-03-25T20:37:04Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>4470</WindowHeight>
+  <WindowWidth>15345</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#E7E6E6" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#E7E6E6" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Underline="Single"/>
+   <Interior ss:Color="#E7E6E6" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Table1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="36" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="110.25" ss:Span="5"/>
+   <Row>
+    <Cell ss:MergeAcross="5" ss:MergeDown="1" ss:StyleID="s65"><Data
+      ss:Type="String">               TABELA EMPRESA</Data></Cell>
+   </Row>
+   <Row ss:Index="3">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">idEmpresa</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">int</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">NO</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">PRI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">auto_increment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">cnpjEmpresa</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">char(18)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">YES</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">responsavel</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">varchar(50)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">YES</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">cargo</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">varchar(40)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">YES</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">telefone</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">varchar(15)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">YES</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">email</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">varchar(100)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">YES</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell ss:MergeAcross="5" ss:MergeDown="1" ss:StyleID="s64"><Data
+      ss:Type="String">TABELA USUARIO</Data></Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell><Data ss:Type="String">idUsuario</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String">PRI</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">auto_increment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">nomeUsuario</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(50)</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">funcao</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(12)</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Index="16">
+    <Cell ss:MergeAcross="5" ss:MergeDown="1" ss:StyleID="s64"><Data
+      ss:Type="String">TABELA CONTATO</Data></Cell>
+   </Row>
+   <Row ss:Index="18">
+    <Cell><Data ss:Type="String">idContato</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String">PRI</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">auto_increment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">nome</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(50)</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">email</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(100)</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">mensagem</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(500)</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Index="23">
+    <Cell ss:MergeAcross="5" ss:MergeDown="1" ss:StyleID="s68"><Data
+      ss:Type="String">TABELA SENSOR</Data></Cell>
+   </Row>
+   <Row ss:Index="25">
+    <Cell><Data ss:Type="String">idSensor</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String">PRI</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">auto_increment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">localSensor</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(15)</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">tipoSensor</Data></Cell>
+    <Cell><Data ss:Type="String">char(1)</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">temperatura</Data></Cell>
+    <Cell><Data ss:Type="String">double</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">umidade</Data></Cell>
+    <Cell><Data ss:Type="String">double</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Index="31">
+    <Cell ss:MergeAcross="5" ss:MergeDown="1" ss:StyleID="s64"><Data
+      ss:Type="String">TABELA SIMULADOR</Data></Cell>
+   </Row>
+   <Row ss:Index="33">
+    <Cell><Data ss:Type="String">idSimulador</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String">PRI</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">auto_increment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">qtde</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">precoCompra</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">precoVenda</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>32</ActiveRow>
+     <RangeSelection>R33C1:R36C6</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
